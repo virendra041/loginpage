@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    width: 100px;
+}
+body{
+    display: flex;
+    justify-content: center;
+  
+    height: 400px;
+    
+    background-color: rgb(26, 4, 4);
+    align-items: center;
+    
+    
+}
+
+body  #main form{
+   border: rgb(64, 163, 245) solid 2px;
+    margin-right: 80px;
+	text-decoration: none;
+	color: white;
+	font-size:20px;
+	width: 600px;
+	text-align: center;
+	height:250px;
+    padding-top: 100px;
+    position:fixed; 
+     margin-left: 350px;
+
+	
+}
+body  #main form #b{
+    background-color: rgb(1, 7, 7);
+    border: rgb(247, 247, 247) solid 2px;
+    color: aliceblue;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+  
+}
+#sth h1{
+    display: flex;
+    font-size: xx-large;
+    color: rgb(55, 225, 255);
+    align-items: center;
+
+}
+body  #main form pre{
+    align-items: center;
+    margin-left: 130px;
+    padding-top: 0;
+    color: aqua;
+}
+body  #main form pre:hover{
+    color: red;
+    
+    text-shadow: 25px 50px brown blueviolet;
+}
+
+    
+@media (max-width: 500px){
+
+    
+        body  #main form{
+            border-width: 400;
+           margin-left: 0;
+           position: relative;
+           size: 50px;
+            }
+
+}
+body  #main form a{
+    text-decoration: none;
+   text-align: left;
+}
+body  #main form #c{
+    background-color: rgb(18, 208, 255);
+    color: black;
+}
+body  #main form #c:hover{
+    background-color: chocolate;
+    color: white;
+    font-weight: 600;
+}
