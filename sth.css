@@ -1,0 +1,377 @@
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	margin: 0px;
+}
+header
+{
+	background:linear-gradient(45deg,orange,blue,orange);	
+	padding:20px 0px;
+	width: 100%;
+	color: white;	
+}
+header h1
+{
+	text-align: right;
+	font-size: 40px;
+	text-shadow: 0 0 40px blue;
+	margin-top: -80px;
+	margin-right: 20px;
+	font-family: Palatino Linotype,serif;
+}
+header img
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-left: 20px;
+}
+nav
+{
+	background:linear-gradient(45deg,blue,orange,limegreen);
+	position: sticky;
+	display: flex;
+	height: 20px;
+	padding: 20px;
+}
+nav a
+{
+	margin-right: 80px;
+	text-decoration: none;
+	color: white;
+	background: linear-gradient(45deg,white,green,blue)
+	font-size:20px;
+	width: 120px;
+	text-align: center;
+	border: 2px solid red;
+	box-shadow: 0 0 10px blue;
+	border-radius: 10px;
+	height: 20px;
+	
+}
+.fa,.fab
+{
+	margin-right: 10px;
+}
+nav a:hover
+{
+	background:linear-gradient(45deg,red,blue,red);
+	color:cyan;
+	height: 20px;
+
+}
+section
+{
+	
+	height: 500px;
+	width: 100%;
+}
+section #main-content 
+{
+
+	height: 500px;
+	width: 25%;
+	border:2px solid blue;
+	background-color: lightgreen;
+	color: black;
+}
+section #main-content img
+{
+	height: 400px;
+	width: 100%;	
+}
+section #img
+{
+	background:rgba(0,0,0,0.2);
+	height: 505px;
+	width: 75%;
+	margin-top: -505px;
+	margin-left: 25%;
+	display: flex;
+
+	
+
+}
+section #img img
+{
+	height: inherit;
+	width: 100%;
+	border-radius: 10px;
+	display: grid;
+	flex-direction: column;
+}
+section #img #ravi
+{
+	margin:70px auto;
+}
+section #img #ravi img
+{
+	height: 250px;
+	border-radius: 20px;
+	border:5px solid darkseagreen;
+	box-shadow: 0 0 20px darkseagreen;
+}
+
+section #img #ravi h1
+{
+	text-align: center;
+	background-color: darkseagreen;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+section #contact
+{
+	background:rgba(0,0,0,0.2);
+	height: 505px;
+	width: 75%;
+	margin-top: -505px;
+	margin-left: 25%;
+
+	
+}
+section #contact p
+{
+	background:linear-gradient(45deg,orange,blue,green);
+	text-align: center;
+	color: white;
+	padding: 40px;
+	
+
+}
+section #contact p span
+{
+	margin: 48px;
+	display: block;
+	background-color:darkseagreen;
+	color: black;
+	padding: 5px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px red;
+}
+
+section #contact img
+{
+	height: 200px;
+	width: 500px;
+	border-radius: 30px;
+	box-shadow: 0 0 20px blue;
+	border:5px solid blue;
+	/*margin-top:20px;*/
+	margin:20px 300px;
+}
+section #video
+{
+	display: flex;
+	/*justify-content: center;*/
+	/*align-items: flex-start;*/
+	flex-wrap: wrap;
+	background:rgba(0,0,0,0.2);
+	height: 505px;
+	width: 75%;
+	margin-top: -505px;
+	margin-left: 25%;
+}
+section #video #link{
+	/*border:2px solid blue;*/
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+section #video #frame{
+	/*border:2px solid red;*/
+	/*height: 474px;*/
+	/*width: 300px;*/
+	justify-content: space-between;
+	margin-left: 10px;
+	border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section #video h2
+{
+	background-color: cyan;
+	color:blue;
+	text-align: center;
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+section #photos
+{
+	
+	background-color:rgba(0,0,0,0.2);
+	display: flex;
+	flex-wrap: wrap;
+	/*align-items: flex-start;*/
+	justify-content: center;
+	width: 100%;
+	/*height: 380px;*/
+	margin-top:0px;
+	
+}
+section #photos h2{
+	background-color: yellow;
+	display: inline;
+	height: 20px
+	width:100%;
+
+}
+section #card-section{
+	width: 100%
+	height:inherit;
+	display: flex;
+	padding: 20px;
+	flex-wrap: wrap;
+	
+
+}
+section #photos .card{
+	/*border:2px solid blue;*/
+	margin: 20px auto;
+	width: 300px;
+	height:300px;
+}
+section #photos .card img{
+	border:5px solid blue;
+	width: inherit;
+	height:inherit;
+	border-radius: 20px;
+	box-shadow: 0 0 10px blue;
+
+}
+section #photos .card img:hover
+{
+	transform: rotateX(45deg);
+}
+
+
+section #worker
+{
+	background:rgba(0,0,0,0.2);
+	height: 505px;
+	width: 75%;
+	margin-top: -505px;
+	margin-left: 25%;
+}
+section #worker table
+{
+	width: 100%;
+	height: 502px;
+	border:3px solid blue;
+	margin-top: 2px;
+	text-align: center;
+}
+section #worker table th
+{
+	border:2px solid black;
+}
+section #worker table td
+{
+	border:2px solid black;
+}
+section #travel
+{
+	background:rgba(0,0,0,0.2);
+	height: 505px;
+	width: 75%;
+	margin-top: -523px;
+	margin-left: 25%;
+}
+section #travel h1
+{
+	background-color: rgba(200,150,100,0.5);
+	padding: 15px;
+	text-align: center;
+	color: red;
+}
+section #travel table
+{
+	width: 20%;
+	text-align: center;
+	margin: auto;
+}
+section #travel table tr
+{
+	margin: 200px;
+	height: 50px;
+	padding: 30px;
+	text-align: center;
+}
+section #travel table input[type="text"],input[type="number"],input[type="date"]
+{
+	margin-left: 100px;
+	padding: 8px;
+	border-radius: 15px;
+	outline: none;
+	box-shadow: 0 0 10px blue;
+}
+section #travel table input[type="submit"],input[type="reset"]
+{
+	padding: 5px;
+	border-radius: 10px;
+	background: linear-gradient(45deg,red,blue,red);
+	color: white;
+	outline: none;
+}
+section #travel table td
+{
+	margin: auto;
+}
+
+
+
+footer
+{
+	background:linear-gradient(45deg,orange,blue,orange);	
+	padding: 20px;
+	margin-bottom: 0px;
+	height: 55px;
+	text-align: center;
+}
+footer h3,h4,small
+{
+	margin: 5px;
+}
+
+@media (max-width: 850px)
+{
+	nav
+	{
+		flex-direction: column;
+		height: 150px;		
+	}
+	nav a
+	{
+		width: 400px;
+		margin: 2px;		
+	}
+	section #contact img
+	{
+		margin: 20px 10px;
+	}
+	footer
+	{
+		margin-bottom: 0px;
+	}
+	
+		
+}
+@media (min-width: 600px) and (max-width:720px;)
+{
+	nav
+	{
+		flex-direction: row;
+	}
+	nav a
+	{
+		padding: 0 50px;
+		height: 30px;
+	}
+
+	
+	
+}
